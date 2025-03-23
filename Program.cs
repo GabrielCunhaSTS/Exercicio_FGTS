@@ -1,7 +1,7 @@
 ﻿double salario, fgts;
 
 Console.Write("Digite seu Salário (R$): ");
-while (!double.TryParse(Console.ReadLine(), out salario) || salario < 0) 
+while (!double.TryParse(Console.ReadLine()!, out salario) || salario < 0) 
 {
     Console.Write("Salário Invalido! Digite um salário (não negativo): ");
 }
