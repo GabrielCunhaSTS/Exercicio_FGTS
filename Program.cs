@@ -8,4 +8,4 @@ while (!double.TryParse(Console.ReadLine()!, out salario) || salario < 0)
 
 fgts = salario * 0.08;
 
-Console.WriteLine($"FGTS: R$ {fgts}");
+Console.WriteLine($"FGTS: R$ {fgts:F2}");
